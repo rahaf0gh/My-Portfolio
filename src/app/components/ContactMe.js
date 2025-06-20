@@ -1,13 +1,13 @@
 export default function ContactMe(){
     return(
-        <div className="hero min-h-screen px-6 sm:px-12 lg:px-32">
+        <div className="hero min-h-screen px-6 sm:px-12 lg:px-32" id="ContactMe">
             <div className="hero-content contact-me p-4 sm:p-8 rounded-md flex-col lg:flex-row shadow-2xl items-center text-center lg:text-right gap-10">
                 
                 <div className="flex flex-col lg:text-right text-center">
                 <p className="py-6">
                     أسعد دائمًا بالتعاون مع من يقدّر الفن والتقنية، لا تتردد في مراسلتي.
                 </p>
-                <a className="my-2"><i className="fa-solid fa-phone rounded-icon"></i> +966 502020734</a>
+                <a className="my-2"><i className="fa-solid fa-phone rounded-icon"></i>  502020734 966+</a>
                 <a><i className="fa-solid fa-envelope rounded-icon"></i> rahaf0alghamdi@gmail.com</a>
                 </div>
 

@@ -106,7 +106,7 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section className="mb-10 text-right">
+    <section className="mb-10 text-right" id="MyWorks">
       <div className="flex justify-center gap-3 my-6">
         <button  onClick={() => setActiveType('ui')} className="btn projects-type-btn">واجهات أمامية</button>
         <button onClick={() => setActiveType('full')} className="btn projects-type-btn">أنظمة متكاملة</button>

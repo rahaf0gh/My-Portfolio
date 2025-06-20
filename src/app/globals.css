@@ -30,6 +30,9 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+html {
+  scroll-behavior: smooth;
+}
 .btn-hover{
   @apply hover:bg-white/20 rounded-sm;
   transition: 0.2s ease-in-out;
