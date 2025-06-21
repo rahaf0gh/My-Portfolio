@@ -35,102 +35,105 @@ export default function DataAnalysisProjects() {
   ];
 
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4  px-32 text-right" id="MyWorks">
-      
-        <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
-          <figure>
-            <img
-              src="/images/Call Center Agents Performance.png"
-              alt="{project.title}"
-              className="w-full h-64 object-fit rounded-t-lg"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-lg">Call Center Agents Performance</h2>
-            <p className="text-sm leading-relaxed whitespace-pre-line">
-              تعرض هذه اللوحة أداء وكلاء مركز الاتصال من خلال عدد المكالمات، متوسط سرعة الرد، وعدد الوكلاء. يتم تحليل المكالمات حسب ما إذا كانت مُجابة أو محلولة، مع مقارنة زمن الاستجابة لكل وكيل. كما تُظهر التغير الشهري في عدد المكالمات عبر الشهور (يناير إلى مارس)، مما يساهم في تتبع الأداء الزمني ومجالات التحسين لكل وكيل.
-            </p>
-          </div>
+    <section
+  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 sm:px-6 lg:px-8 max-w-screen-xl mx-auto text-right"
+  id="MyWorks"
+>
+  <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
+    <figure>
+      <img
+        src="/images/Call Center Agents Performance.png"
+        alt="Call Center Agents Performance"
+        className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-lg"
+      />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title text-lg">Call Center Agents Performance</h2>
+      <p className="text-sm leading-relaxed whitespace-pre-line">
+        تعرض هذه اللوحة أداء وكلاء مركز الاتصال من خلال عدد المكالمات، متوسط سرعة الرد، وعدد الوكلاء. يتم تحليل المكالمات حسب ما إذا كانت مُجابة أو محلولة، مع مقارنة زمن الاستجابة لكل وكيل. كما تُظهر التغير الشهري في عدد المكالمات عبر الشهور (يناير إلى مارس)، مما يساهم في تتبع الأداء الزمني ومجالات التحسين لكل وكيل.
+      </p>
+    </div>
+  </div>
+
+  <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
+    <figure>
+      <img
+        src="/images/Profit&sales Insight Dashboard.png"
+        alt="Profit & Sales Insight"
+        className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-lg"
+      />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title text-lg">Profit & Sales Insight</h2>
+      <p className="text-sm leading-relaxed whitespace-pre-line">
+        تُبرز هذه اللوحة الربحية لكل منتج داخل كل مدينة، مع تمثيل بياني شامل يوضح توزيع الأرباح ونسبتها في كل مدينة. كما توضح الكميات المباعة لكل منتج عبر مخطط خطي. يمكن فلترة البيانات حسب نوع المنتج أو المدينة أو الفترة الزمنية، مما يساعد في تحديد الأسواق الأعلى ربحية والمنتجات الأعلى مبيعًا.
+      </p>
+    </div>
+  </div>
+
+  <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
+    <figure>
+      <img
+        src="/images/Revenue Analysis by Manager and Product Category.png"
+        alt="Revenue Analysis by Manager and Product Category"
+        className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-lg"
+      />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title text-lg">Revenue Analysis by Manager and Product Category</h2>
+      <p className="text-sm leading-relaxed whitespace-pre-line">
+        تعرض هذه اللوحة الإيرادات التي حققها كل مدير عبر فئات المنتجات المختلفة مثل البرغر والمشروبات والبطاطس. يُظهر الجدول القيم الرقمية التفصيلية، بينما يوضح المخطط البياني مقارنة مرئية بين أداء المديرين، مما يساعد على تقييم أداء الأفراد في إدارة المبيعات وتحقيق الإيرادات.
+      </p>
+    </div>
+  </div>
+
+  <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
+    <figure>
+      <img
+        src="/images/Sample donation of ehsan.png"
+        alt="تحليل عينة 1500 متبرع عبر إحسان"
+        className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-lg"
+      />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title text-lg">تحليل عينة 1500 متبرع عبر إحسان</h2>
+      <p className="text-sm leading-relaxed whitespace-pre-line">
+        تم تحليل بيانات 1500 متبرع على منصة إحسان لتحديد الأنماط السلوكية والتوزيع الجغرافي، مما يساعد في تحسين استراتيجيات الحملات التسويقية وجذب المتبرعين.
+      </p>
+    </div>
+  </div>
+
+  <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
+    <figure>
+      <div className="carousel carousel-center rounded-box w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-lg">
+        <div className="carousel-item">
+          <img src="../images/gdgAnalysis1.png" alt="DataAnalysis" />
         </div>
-
-        <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
-          <figure>
-            <img
-              src='/images/Profit&sales Insight Dashboard.png'
-              alt="{project.title}"
-              className="w-full h-64 object-fit rounded-t-lg"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-lg">Profit & Sales Insight</h2>
-            <p className="text-sm leading-relaxed whitespace-pre-line">
-تُبرز هذه اللوحة الربحية لكل منتج داخل كل مدينة، مع تمثيل بياني شامل يوضح توزيع الأرباح ونسبتها في كل مدينة. كما توضح الكميات المباعة لكل منتج عبر مخطط خطي. يمكن فلترة البيانات حسب نوع المنتج أو المدينة أو الفترة الزمنية، مما يساعد في تحديد الأسواق الأعلى ربحية والمنتجات الأعلى مبيعًا.            </p>
-          </div>
+        <div className="carousel-item">
+          <img src="../images/gdgAnalysis2.png" alt="DataAnalysis" />
         </div>
-
-        <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
-          <figure>
-            <img
-              src='/images/Revenue Analysis by Manager and Product Category.png'
-              alt="{project.title}"
-              className="w-full h-64 object-fit rounded-t-lg"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-lg">Revenue Analysis by Manager and Product Categoryt</h2>
-            <p className="text-sm leading-relaxed whitespace-pre-line">
-            تعرض هذه اللوحة الإيرادات التي حققها كل مدير عبر فئات المنتجات المختلفة مثل البرغر والمشروبات والبطاطس. يُظهر الجدول القيم الرقمية التفصيلية، بينما يوضح المخطط البياني مقارنة مرئية بين أداء المديرين، مما يساعد على تقييم أداء الأفراد في إدارة المبيعات وتحقيق الإيرادات.
-            </p>
-          </div>
+        <div className="carousel-item">
+          <img src="../images/gdgAnalysis3.png" alt="DataAnalysis" />
         </div>
-
-        <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
-          <figure>
-            <img
-              src='/images/Sample donation of ehsan.png'
-              alt="{project.title}"
-              className="w-full h-64 object-fit rounded-t-lg"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-lg">تحليل عينة 1500 متبرع عبر إحسان</h2>
-            <p className="text-sm leading-relaxed whitespace-pre-line">
-تم تحليل بيانات 1500 متبرع على منصة إحسان لتحديد الأنماط السلوكية والتوزيع الجغرافي، مما يساعد في تحسين استراتيجيات الحملات التسويقية وجذب المتبرعين.            </p>
-          </div>
+        <div className="carousel-item">
+          <img src="../images/gdgAnalysis4.png" alt="DataAnalysis" />
         </div>
-
-        <div className="card bg-base-100 shadow-sm hover:shadow-md transition-shadow duration-200">
-          <figure>
-            <div className="carousel carousel-center rounded-box w-full h-64 object-fit rounded-t-lg">
-              <div className="carousel-item">
-                <img src="../images/gdgAnalysis1.png" alt="DataAnalysis" />
-              </div>
-              <div className="carousel-item">
-                <img src="../images/gdgAnalysis2.png" alt="DataAnalysis" />
-              </div>
-              <div className="carousel-item">
-                <img src="../images/gdgAnalysis3.png" alt="DataAnalysis" />
-              </div>
-              <div className="carousel-item">
-                <img src="../images/gdgAnalysis4.png" alt="DataAnalysis" />
-              </div>
-              <div className="carousel-item">
-                <img src="../images/gdgAnalysis5.png" alt="DataAnalysis" />
-              </div>
-              <div className="carousel-item">
-                <img src="../images/gdgAnalysis6.png" alt="DataAnalysis" />
-              </div>
-            </div>
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-lg">Weather Status in the Gulf States</h2>
-            <p className="text-sm leading-relaxed whitespace-pre-line">
-              تم تحليل حالة الطقس في مناطق دول الخليج وتحليل عن طريق مقاييس درجة الحرارة والرطوبة والندى والرياح.
-            </p>
-          </div>
+        <div className="carousel-item">
+          <img src="../images/gdgAnalysis5.png" alt="DataAnalysis" />
         </div>
+        <div className="carousel-item">
+          <img src="../images/gdgAnalysis6.png" alt="DataAnalysis" />
+        </div>
+      </div>
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title text-lg">Weather Status in the Gulf States</h2>
+      <p className="text-sm leading-relaxed whitespace-pre-line">
+        تم تحليل حالة الطقس في مناطق دول الخليج وتحليل عن طريق مقاييس درجة الحرارة والرطوبة والندى والرياح.
+      </p>
+    </div>
+  </div>
+</section>
 
-
-    </section>
   );
 }
