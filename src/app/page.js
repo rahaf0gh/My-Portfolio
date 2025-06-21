@@ -1,5 +1,6 @@
 import ProjectsSection from './components/ProjectsSection';
 import ContactMe from './components/ContactMe';
+import DataAnalysisProjects from './components/DataAnalysisProjects';
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
             <h1 className="text-2xl sm:text-3xl font-bold py-4">أهلاً.. أنا رهف الغامدي.</h1>
             
             <p className="text-sm sm:text-base mb-2">
-              طالبة علوم حاسب في جامعة الباحة، ومطوّرة شغوفة تجمع بين البرمجة، التصميم، وتحليل البيانات.
+              خريجة علوم حاسب في جامعة الباحة، ومطوّرة شغوفة تجمع بين البرمجة، التصميم، وتحليل البيانات.
             </p>
             
             <p className="text-sm sm:text-base mb-2">
@@ -55,7 +56,21 @@ export default function Home() {
 
 
       <ProjectsSection />
+
+      <h3 className="text-3xl sm:text-5xl text-center mt-8 mb-4 sm:mt-20">مشاريع تحليل البيانات</h3>
+      <DataAnalysisProjects/>
+
+      <div className="contact-me w-full max-w-4xl h-48 mx-auto my-10 flex items-center justify-between px-12 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold m-0">أعمال التصاميم</h1>
+        <a href='https://www.behance.net/Ra_designer34' target='_blank' className='btn btn-gradiant w-32'>انقر هنا</a>
+      </div>
+
+
+
+
       <ContactMe />
+
+      
 
       <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
         <aside>
@@ -71,10 +86,10 @@ export default function Home() {
         </aside>
         <nav>
           <div className="grid grid-flow-col gap-4">
-            <a>
+            <a href='https://x.com/7g_rahaf?s=21' target='_blank'>
               <i class="fa-solid fa-x text-xl"></i>
             </a>
-            <a>
+            <a href='https://www.linkedin.com/in/%D8%B1%D9%87%D9%8E%D9%80%D9%81-61bb0b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank'>
               <i class="fa-brands fa-linkedin-in text-xl"></i>
             </a>
           </div>
