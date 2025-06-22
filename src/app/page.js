@@ -13,19 +13,19 @@ export default function Home() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li className="btn-hover"><a href='#WhoAmI'> <i class="fa-solid fa-user"></i>من أنا</a></li>
-              <li className="btn-hover"><a href='#MyWorks'> <i class="fa-solid fa-briefcase"></i>أعمالي</a></li>
-              <li className="btn-hover"><a href='#ContactMe'> <i class="fa-solid fa-phone"></i>تواصل معي</a></li>
+              className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li className="btn-hover"><a href='#WhoAmI'> <i className="fa-solid fa-user"></i>من أنا</a></li>
+              <li className="btn-hover"><a href='#MyWorks'> <i className="fa-solid fa-briefcase"></i>أعمالي</a></li>
+              <li className="btn-hover"><a href='#ContactMe'> <i className="fa-solid fa-phone"></i>تواصل معي</a></li>
             </ul>
           </div>
           <a className="btn btn-ghost text-2xl">رهف</a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li className="btn-hover"><a href='#WhoAmI'> <i class="fa-solid fa-user"></i>من أنا </a></li>
-            <li className="btn-hover"><a href='#MyWorks'> <i class="fa-solid fa-briefcase"></i>أعمالي</a></li>
-            <li className="btn-hover"><a href='#ContactMe'> <i class="fa-solid fa-phone"></i>تواصل معي</a></li>
+            <li className="btn-hover"><a href='#WhoAmI'> <i className="fa-solid fa-user"></i>من أنا </a></li>
+            <li className="btn-hover"><a href='#MyWorks'> <i className="fa-solid fa-briefcase"></i>أعمالي</a></li>
+            <li className="btn-hover"><a href='#ContactMe'> <i className="fa-solid fa-phone"></i>تواصل معي</a></li>
           </ul>
         </div>
       </div>
@@ -77,9 +77,9 @@ export default function Home() {
           <a className="text-2xl">رهف</a>
           <div className="lg:flex flex-row">
             <ul className="menu menu-horizontal px-1">
-              <li className="btn-hover"><a href='#WhoAmI'> <i class="fa-solid fa-user"></i>من أنا</a></li>
-              <li className="btn-hover"><a href='#MyWorks'> <i class="fa-solid fa-briefcase"></i>أعمالي</a></li>
-              <li className="btn-hover"><a href='#ContactMe'> <i class="fa-solid fa-phone"></i>تواصل معي</a></li>
+              <li className="btn-hover"><a href='#WhoAmI'> <i className="fa-solid fa-user"></i>من أنا</a></li>
+              <li className="btn-hover"><a href='#MyWorks'> <i className="fa-solid fa-briefcase"></i>أعمالي</a></li>
+              <li className="btn-hover"><a href='#ContactMe'> <i className="fa-solid fa-phone"></i>تواصل معي</a></li>
             </ul>
           </div>
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
@@ -87,10 +87,10 @@ export default function Home() {
         <nav>
           <div className="grid grid-flow-col gap-4">
             <a href='https://x.com/7g_rahaf?s=21' target='_blank'>
-              <i class="fa-solid fa-x text-xl"></i>
+              <i className="fa-solid fa-x text-xl"></i>
             </a>
             <a href='https://www.linkedin.com/in/%D8%B1%D9%87%D9%8E%D9%80%D9%81-61bb0b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank'>
-              <i class="fa-brands fa-linkedin-in text-xl"></i>
+              <i className="fa-brands fa-linkedin-in text-xl"></i>
             </a>
           </div>
         </nav>
