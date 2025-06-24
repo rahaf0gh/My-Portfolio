@@ -11,7 +11,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/HospitalInformationSystem-2024/',
       description: 'نظام معلومات مستشفى تم تطويره كواجهة أمامية تعرض لوحة تحكم مخصصة لإدارة معلومات المرضى، المواعيد، الموظفين، والخدمات الطبية بشكل مرئي ومرتب.',
       type: 'ui',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
     },
     {
       title: 'Creative Journeys Company',
