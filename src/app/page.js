@@ -36,7 +36,7 @@ export default function Home() {
             <h1 className="text-2xl sm:text-3xl font-bold py-4">أهلاً.. أنا رهف الغامدي.</h1>
             
             <p className="text-sm sm:text-base mb-2">
-              خريجة علوم حاسب في جامعة الباحة، ومطوّرة شغوفة تجمع بين البرمجة، التصميم، وتحليل البيانات.
+              خريجة علوم حاسب من جامعة الباحة (2025)، ومطوّرة شغوفة تجمع بين البرمجة، التصميم، وتحليل البيانات.
             </p>
             
             <p className="text-sm sm:text-base mb-2">
@@ -82,15 +82,15 @@ export default function Home() {
               <li className="btn-hover"><a href='#ContactMe'> <i className="fa-solid fa-phone"></i>تواصل معي</a></li>
             </ul>
           </div>
-          <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+          <p> © تم تطوير الموقع بواسطة م. رهف فهد - {new Date().getFullYear()}</p>
         </aside>
         <nav>
           <div className="grid grid-flow-col gap-4">
             <a href='https://x.com/7g_rahaf?s=21' target='_blank'>
-              <i className="fa-solid fa-x text-xl"></i>
+              <i class="fa-brands fa-linkedin-in text-2xl"></i>
             </a>
             <a href='https://www.linkedin.com/in/%D8%B1%D9%87%D9%8E%D9%80%D9%81-61bb0b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank'>
-              <i className="fa-brands fa-linkedin-in text-xl"></i>
+              <i class="fa-brands fa-x-twitter text-2xl"></i>
             </a>
           </div>
         </nav>

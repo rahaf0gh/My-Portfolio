@@ -48,7 +48,7 @@ export default function DataAnalysisProjects() {
       />
     </figure>
     <div className="card-body">
-      <h2 className="card-title text-lg">Call Center Agents Performance</h2>
+      <h2 className="text-lg text-left font-semibold text-lg mb-2">Call Center Agents Performance</h2>
       <p className="text-sm leading-relaxed whitespace-pre-line">
         تعرض هذه اللوحة أداء وكلاء مركز الاتصال من خلال عدد المكالمات، متوسط سرعة الرد، وعدد الوكلاء. يتم تحليل المكالمات حسب ما إذا كانت مُجابة أو محلولة، مع مقارنة زمن الاستجابة لكل وكيل. كما تُظهر التغير الشهري في عدد المكالمات عبر الشهور (يناير إلى مارس)، مما يساهم في تتبع الأداء الزمني ومجالات التحسين لكل وكيل.
       </p>
@@ -64,7 +64,7 @@ export default function DataAnalysisProjects() {
       />
     </figure>
     <div className="card-body">
-      <h2 className="card-title text-lg">Profit & Sales Insight</h2>
+      <h2 className="text-lg text-left font-semibold text-lg mb-2">Profit & Sales Insight</h2>
       <p className="text-sm leading-relaxed whitespace-pre-line">
         تُبرز هذه اللوحة الربحية لكل منتج داخل كل مدينة، مع تمثيل بياني شامل يوضح توزيع الأرباح ونسبتها في كل مدينة. كما توضح الكميات المباعة لكل منتج عبر مخطط خطي. يمكن فلترة البيانات حسب نوع المنتج أو المدينة أو الفترة الزمنية، مما يساعد في تحديد الأسواق الأعلى ربحية والمنتجات الأعلى مبيعًا.
       </p>
@@ -80,7 +80,7 @@ export default function DataAnalysisProjects() {
       />
     </figure>
     <div className="card-body">
-      <h2 className="card-title text-lg">Revenue Analysis by Manager and Product Category</h2>
+      <h2 className="text-lg text-left font-semibold text-lg mb-2">Revenue Analysis by Manager and Product Category</h2>
       <p className="text-sm leading-relaxed whitespace-pre-line">
         تعرض هذه اللوحة الإيرادات التي حققها كل مدير عبر فئات المنتجات المختلفة مثل البرغر والمشروبات والبطاطس. يُظهر الجدول القيم الرقمية التفصيلية، بينما يوضح المخطط البياني مقارنة مرئية بين أداء المديرين، مما يساعد على تقييم أداء الأفراد في إدارة المبيعات وتحقيق الإيرادات.
       </p>
@@ -127,7 +127,7 @@ export default function DataAnalysisProjects() {
       </div>
     </figure>
     <div className="card-body">
-      <h2 className="card-title text-lg">Weather Status in the Gulf States</h2>
+      <h2 className="text-lg text-left font-semibold text-lg mb-2">Weather Status in the Gulf States</h2>
       <p className="text-sm leading-relaxed whitespace-pre-line">
         تم تحليل حالة الطقس في مناطق دول الخليج وتحليل عن طريق مقاييس درجة الحرارة والرطوبة والندى والرياح.
       </p>
