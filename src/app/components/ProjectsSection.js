@@ -19,7 +19,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/CreativeJoureysCompany-2024/',
       description: 'موقع تعريفي لشركة إبداعية أو سياحية يعرض رؤيتها وخدماتها بأسلوب حيوي وجذاب. يحتوي على أقسام متكاملة مثل نبذة عن الشركة، الخدمات، فريق العمل، وآراء العملاء، مع تصميم بصري أنيق يعكس روح المغامرة والإبداع.',
       type: 'ui',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['HTML', 'Tailwind CSS'],
     },
     {
       title: 'Ecolife Candles',
@@ -35,7 +35,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/JM-Land-2024/',
       description: 'موقع تعريفي لمشروع عقاري يعرض نبذة عن الشركة، خدماتها، أبرز المشاريع، وآراء العملاء. يتميز بتصميم عصري وألوان متناسقة تعزز من حضور العلامة التجارية وتمنح الزائر تجربة تصفح سهلة وجذابة.',
       type: 'ui',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['HTML', 'CSS'],
     },
     {
       title: 'Wex',
@@ -43,7 +43,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/Wex-2024/',
       description: 'موقع يقدم خدمات رقمية أو تقنية بأسلوب احترافي ومنظم، يحتوي على أقسام متنوعة مثل نبذة عن الفريق، الخدمات، آراء العملاء، وصفحة تواصل. يتميز بتصميم عصري يعزز الثقة ويُظهر الهوية المهنية بشكل واضح.',
       type: 'ui',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['HTML', 'CSS'],
     },
     {
       title: 'Find Job',
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/FindJob-2024/',
       description: 'موقع تعريفي يهدف إلى تسهيل عملية البحث عن الوظائف من خلال تقديم معلومات جذابة عن المنصة، مزايا الاستخدام، آراء المستخدمين، ونموذج تواصل. يتميز بتصميم عملي يركز على الوضوح وسهولة التصفح ويعزز من ثقة الزائر في الخدمة.',
       type: 'ui',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['HTML', 'CSS'],
     },
     // ---
     {
@@ -71,7 +71,7 @@ export default function ProjectsSection() {
       technologies: ['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API'],
     },
     {
-      title: 'ToDo-List',
+      title: 'To Do-List',
       image: '../images/To-Do List.png',
       url: 'https://rahaf0gh.github.io/ToDo-List/',
       description: 'تطبيق لإدارة المهام يتيح للمستخدم إضافة وحذف وتحديث المهام اليومية.',
