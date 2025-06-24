@@ -11,7 +11,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/HospitalInformationSystem-2024/',
       description: 'نظام معلومات مستشفى تم تطويره كواجهة أمامية تعرض لوحة تحكم مخصصة لإدارة معلومات المرضى، المواعيد، الموظفين، والخدمات الطبية بشكل مرئي ومرتب.',
       type: 'ui',
-      technologies: ['HTML', 'Tailwind CSS', 'JavaScript'],
+      technologies: ['JavaScript','Tailwind CSS','HTML'],
     },
     {
       title: 'Creative Journeys Company',
@@ -19,7 +19,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/CreativeJoureysCompany-2024/',
       description: 'موقع تعريفي لشركة إبداعية أو سياحية يعرض رؤيتها وخدماتها بأسلوب حيوي وجذاب. يحتوي على أقسام متكاملة مثل نبذة عن الشركة، الخدمات، فريق العمل، وآراء العملاء، مع تصميم بصري أنيق يعكس روح المغامرة والإبداع.',
       type: 'ui',
-      technologies: ['HTML', 'Tailwind CSS'],
+      technologies: ['Tailwind CSS','HTML'],
     },
     {
       title: 'Ecolife Candles',
@@ -27,7 +27,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/EcolifeCandles/',
       description: 'موقع يعرض منتجات شموع صديقة للبيئة بتصميم بسيط وهادئ يعكس طابع الاستدامة. يحتوي على أقسام تعريفية، عرض للمنتجات، آراء العملاء، وصفحة للتواصل، مما يعزز تجربة المستخدم ويبرز هوية العلامة التجارية.',
       type: 'ui',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['JavaScript','CSS','HTML'],
     },
     {
       title: 'JM Land',
@@ -35,7 +35,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/JM-Land-2024/',
       description: 'موقع تعريفي لمشروع عقاري يعرض نبذة عن الشركة، خدماتها، أبرز المشاريع، وآراء العملاء. يتميز بتصميم عصري وألوان متناسقة تعزز من حضور العلامة التجارية وتمنح الزائر تجربة تصفح سهلة وجذابة.',
       type: 'ui',
-      technologies: ['HTML', 'CSS'],
+      technologies: [ 'CSS','HTML'],
     },
     {
       title: 'Wex',
@@ -43,7 +43,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/Wex-2024/',
       description: 'موقع يقدم خدمات رقمية أو تقنية بأسلوب احترافي ومنظم، يحتوي على أقسام متنوعة مثل نبذة عن الفريق، الخدمات، آراء العملاء، وصفحة تواصل. يتميز بتصميم عصري يعزز الثقة ويُظهر الهوية المهنية بشكل واضح.',
       type: 'ui',
-      technologies: ['HTML', 'CSS'],
+      technologies: ['CSS','HTML'],
     },
     {
       title: 'Find Job',
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/FindJob-2024/',
       description: 'موقع تعريفي يهدف إلى تسهيل عملية البحث عن الوظائف من خلال تقديم معلومات جذابة عن المنصة، مزايا الاستخدام، آراء المستخدمين، ونموذج تواصل. يتميز بتصميم عملي يركز على الوضوح وسهولة التصفح ويعزز من ثقة الزائر في الخدمة.',
       type: 'ui',
-      technologies: ['HTML', 'CSS'],
+      technologies: ['CSS','HTML'],
     },
     // ---
     {
@@ -60,7 +60,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/PrayersTime-2023/',
       description: 'تطبيق يعرض أوقات الصلاة لعدة مناطق في السعودية باستخدام واجهة بسيطة وسهلة الاستخدام.',
       type: 'other',
-      technologies: ['HTML', 'CSS', 'JavaScript','JSON '],
+      technologies: ['JSON ','JavaScript','CSS', 'HTML'],
     },
     {
       title: 'Weather',
@@ -68,7 +68,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/Weather/',
       description: 'تطبيق طقس يعرض حالة الجو في الوقت الفعلي باستخدام API خارجي لعرض بيانات الطقس حسب المدينة.',
       type: 'other',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API'],
+      technologies: ['OpenWeatherMap API','JavaScript','CSS','HTML'],
     },
     {
       title: 'To Do-List',
@@ -76,7 +76,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/ToDo-List/',
       description: 'تطبيق لإدارة المهام يتيح للمستخدم إضافة وحذف وتحديث المهام اليومية.',
       type: 'other',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'LocalStorage'],
+      technologies: ['LocalStorage','JavaScript','CSS','HTML'],
     },
     {
       title: 'XO-Game',
@@ -84,7 +84,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/XO-Game/',
       description: 'لعبة XO كلاسيكية يمكن لعبها بين لاعبين باستخدام لوحة شبكية 3x3.',
       type: 'other',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['JavaScript','CSS','HTML'],
     },
     {
       title: 'Claculator',
@@ -92,7 +92,7 @@ export default function ProjectsSection() {
       url: 'https://rahaf0gh.github.io/Claculator/',
       description: 'آلة حاسبة بسيطة تقوم بالعمليات الحسابية الأساسية باستخدام واجهة تفاعلية.',
       type: 'other',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['JavaScript','CSS','HTML'],
     },
     // ---
     {
@@ -101,7 +101,7 @@ export default function ProjectsSection() {
       url: 'https://next-js-indicator2025.vercel.app/',
       description: 'لوحة مؤشرات تفاعلية تعرض اهم مصادر المنشآت التجارية في المملكة في جداول ورسوم بيانية ، كما تمكن من رفع ملفات خارجية',
       type: 'full',
-      technologies: ['NextJs', 'React', 'Tailwind CSS'],
+      technologies: ['Tailwind CSS','React','NextJs'],
     },
   ];
 

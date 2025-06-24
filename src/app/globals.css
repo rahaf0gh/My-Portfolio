@@ -53,9 +53,10 @@ html {
 }
 .btn-technology{
   border-radius: 22px;
-  background-color: #C961DE;
+  background-color: #ba4dd0;
   color: #f2f2f2;
   font-size: 10px;
+  @apply px-3;
 }
 .btn-gradiant{
   border: none;
