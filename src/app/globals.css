@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@font-face {
+  font-family: cario;
+  src: url(/public/font/Cairo-VariableFont_slnt\,wght.ttf);
+}
+
+:root {
+  --background:  linear-gradient(180deg , #0F243F 0%, #1C1C65 100%);;
+  --foreground: #f2f2f2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-cario: cario, "sans-serif";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background:  linear-gradient(180deg , #0F243F 0%, #1C1C65 100%);
+    --foreground: #f2f2f2;
+    --font-cario: cario, "sans-serif";
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn-hover{
+  @apply hover:bg-white/20 rounded-sm;
+  transition: 0.2s ease-in-out;
+}
+.projects-type-btn{
+  border-radius: 22px;
+  background-color: #f2f2f2;
+  border: none;
+}
+.projects-type-btn:hover{
+  transition: 0.2s ease-in-out;
+  background-color: #C961DE;
+  color: #f2f2f2;
+  border: none;
+}
+.card{
+  background-color: #6969d092;
+}
+.btn-technology{
+  border-radius: 22px;
+  background-color: #ba4dd0;
+  color: #f2f2f2;
+  font-size: 10px;
+  @apply px-3;
+}
+.btn-gradiant{
+  border: none;
+  color: #f2f2f2;
+  background: linear-gradient(to right, #C961DE, #2954A3);
+}
+.contact-me, footer{
+  background-color: #2f2f8a97;
+}
+input, textarea{
+  background-color: #fafafa63;
+  color: #f2f2f2;
+}
+.rounded-icon{
+  background-color: #fafafa63;
+  border-radius: 50%;
+  padding: 6px;
+  @apply ml-2;
+}
+.card-contact{
+  background-color: transparent;
+}
